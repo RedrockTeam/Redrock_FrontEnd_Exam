@@ -1,4 +1,4 @@
-Redrock_FrontEnd_Exam
+﻿Redrock_FrontEnd_Exam
 ============
 
 学员第一学期考核试题
@@ -13,3 +13,6 @@ Js  2道
 * Ling:
 	+ 子代选择器, 以及选择器的优先级.
 	+ margin 百分比计算值.
+
+*liuhuizhi:
+        + 请将文字和图片垂直居中

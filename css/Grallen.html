@@ -1,0 +1,78 @@
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+
+		.clearfix {
+			*zoom: 1; 
+		}
+		.clearfix:before,.clearfix:after {
+			display: table;
+			line-height: 0;
+			content: "";
+		}
+		.clearfix:after {
+			clear: both; 
+		}
+
+		body{
+			padding: 50px;
+		}
+		div.que{
+			float: left;
+			margin-left: 200px;
+			margin-right: 200px;
+		}
+		#demo{
+		    width: 300px;
+		    height: 300px;
+		    float: left;
+		}
+		#demo div div.white{
+			width: 100px;
+			height: 100px;
+			float: left;
+		}
+		#demo div div.red{
+			width: 100px;
+			height: 100px;
+			float: left;
+			background-color: red;
+		}
+
+	</style>
+</head>
+<body>
+<div class="que">
+	<p>请用重构的方式制作出如右图所示的十字架。</p>
+	<p>要求：使用尽可能少的class名</p>
+	<p>Q1.使用两个div完成</p>
+	<p>Q2.使用三个div完成</p>
+	<p>Q3.使用五个div完成（两种方法）</p>
+</div>
+<div id="demo">
+
+	<div>
+		<div class="white"></div>
+		<div class="red"></div>
+		<div class="white"></div>
+		<div class="clearfix"></div>
+	</div>
+	<div>
+		<div class="red"></div>
+		<div class="red"></div>
+		<div class="red"></div>
+		<div class="clearfix"></div>
+	</div>
+	<div>
+		<div class="white"></div>
+		<div class="red"></div>
+		<div class="white"></div>
+		<div class="clearfix"></div>
+	</div>
+
+
+</div>
+
+</body>
+</html>

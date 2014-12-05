@@ -1,4 +1,4 @@
-﻿Redrock_FrontEnd_Exam
+Redrock_FrontEnd_Exam
 ============
 
 学员第一学期考核试题
@@ -22,3 +22,13 @@ Js  2道
 
 * Grallen
     css的基本使用
+
+* chenqinyu:
+	+ 写一段css，将1的颜色变为红色(不要改变html)
+	
+		```
+			<p>1</p>
+			<p>1</p>
+			<p>1</p>
+		```
+	+ 列举你所知道的css伪元素与伪类(请分类)	

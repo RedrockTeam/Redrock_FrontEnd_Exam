@@ -32,3 +32,6 @@ Js  2道
 			<p>1</p>
 		```
 	+ 列举你所知道的css伪元素与伪类(请分类)	
+* linyanfang:
++ 实现div高度自适应电脑屏幕
++ background-position写出背景图片定位在左上角的三种实现方式
